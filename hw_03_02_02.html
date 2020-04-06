@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&lt; Canvas &gt; 사용예 </title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header>
+		<center><h1>&lt; Canvas &gt; 사용예 (과제 #03-02)</h1></center>
+	</header>
+<canvas id="myCanvas" width="200" height="100" style="border:0px">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+ctx.moveTo(0,100);
+ctx.lineTo(200,0);
+ctx.stroke();
+</script>
+<p><h4>웹프로그래밍2 과목. 201710454 최유현의 예제 공간입니다.</h4></p>
+</body>
+</html>
